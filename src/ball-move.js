@@ -37,7 +37,6 @@ document.onmousemove = function (e) {
 
 document.onmouseup = function (e) {
   if (trigger) {
-    new Ball(current, [(end[0] - current[0]) / 10, (end[1] - current[1]) / 10], [0, acc], 10, 20);
     new Ball(current, [(end[0] - current[0]) / 10, (end[1] - current[1]) / 10], [0, acc], 10, 20) 
   }
   trigger = false
